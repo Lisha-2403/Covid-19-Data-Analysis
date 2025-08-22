@@ -38,3 +38,9 @@ Clean data (handle missing values, convert to numeric).
 
 Aggregate totals by country.
 
+ ## Key Insights
+
+There is a clear positive correlation between COVID-19 cases and deaths.
+
+Some countries have disproportionately high death rates compared to others with similar case counts.
+
