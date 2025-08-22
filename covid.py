@@ -1,9 +1,8 @@
 import pandas as pd
 
-# Replace with the actual path to your downloaded CSV file
+
 file_path = r"C:\Users\DLIB-12\Downloads\covidfolder\coviddeathbycountry.csv"
 
-# Load the dataset
 df = pd.read_csv(file_path)
 
 # Display the first few rows
@@ -45,6 +44,7 @@ plt.show()
 max_cases_country = df.loc[df['Cases'].idxmax()]
 print("Country with the highest number of cases:")
 print(f"{max_cases_country['Country']}: {max_cases_country['Cases']} cases, {max_cases_country['Deaths']} deaths")
+
 
 
 
